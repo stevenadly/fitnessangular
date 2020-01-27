@@ -1,0 +1,6 @@
+<div fxLayout="column" fxLayoutAlign="center center">
+  <mat-progress-spinner mode="determinate" [value]='progress'></mat-progress-spinner>
+  <h1>progress {{progress}}%</h1>
+  <p>go on</p>
+  <button mat-raised-button color='accent' (click)="stopAddingExercises()"> cancel </button>
+</div>
